@@ -12,9 +12,30 @@ body {
   line-height: 1.5;
 }
 
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+
 #search-box {
   font: inherit;
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+}
+
+.country-list {
+  padding-left: 0;
+}
+
+.country-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 450px;
+}
+
+.country-info__title {
+  text-transform: uppercase;
 }
